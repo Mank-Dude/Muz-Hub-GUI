@@ -38,7 +38,7 @@ FLY.Text = "Fly"
 FLY.TextColor3 = Color3.fromRGB(0, 0, 0)
 FLY.TextSize = 30.000
 FLY.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Mank-Dude/Fly/main/Fly"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Mank-Dude/Fly-2/main/Fly%202"))()
 end)
 
 WYDFORM.Name = "WYD FORM"
