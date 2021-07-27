@@ -1,0 +1,55 @@
+--Made By Demon
+local ScreenGui = Instance.new("ScreenGui")
+local MUZHUB = Instance.new("Frame")
+local MUZHUB_2 = Instance.new("TextLabel")
+local FLY = Instance.new("TextButton")
+local WYDFORM = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+MUZHUB.Name = "MUZ HUB"
+MUZHUB.Parent = ScreenGui
+MUZHUB.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+MUZHUB.BackgroundTransparency = 0.100
+MUZHUB.Position = UDim2.new(0.131462336, 0, 0.242484942, 0)
+MUZHUB.Size = UDim2.new(0, 499, 0, 257)
+MUZHUB.Active = true
+MUZHUB.Draggable = true
+
+MUZHUB_2.Name = "MUZ HUB"
+MUZHUB_2.Parent = MUZHUB
+MUZHUB_2.BackgroundColor3 = Color3.fromRGB(30, 140, 0)
+MUZHUB_2.Size = UDim2.new(0, 499, 0, 44)
+MUZHUB_2.Font = Enum.Font.SpecialElite
+MUZHUB_2.LineHeight = 0.820
+MUZHUB_2.Text = "MUZ HUB"
+MUZHUB_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+MUZHUB_2.TextSize = 40.000
+
+FLY.Name = "FLY"
+FLY.Parent = MUZHUB
+FLY.BackgroundColor3 = Color3.fromRGB(0, 255, 38)
+FLY.Position = UDim2.new(0.02004008, 0, 0.225680932, 0)
+FLY.Size = UDim2.new(0, 182, 0, 50)
+FLY.Font = Enum.Font.PermanentMarker
+FLY.Text = "Fly"
+FLY.TextColor3 = Color3.fromRGB(0, 0, 0)
+FLY.TextSize = 30.000
+FLY.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Mank-Dude/Fly/main/Fly"))()
+end)
+
+WYDFORM.Name = "WYD FORM"
+WYDFORM.Parent = MUZHUB
+WYDFORM.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+WYDFORM.Position = UDim2.new(0.603206396, 0, 0.225680932, 0)
+WYDFORM.Size = UDim2.new(0, 182, 0, 50)
+WYDFORM.Font = Enum.Font.PermanentMarker
+WYDFORM.Text = "WYD FORM"
+WYDFORM.TextColor3 = Color3.fromRGB(0, 0, 0)
+WYDFORM.TextSize = 30.000
+WYDFORM.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Mank-Dude/WYD-FORM/main/WYD%20FORM"))()
+end)
