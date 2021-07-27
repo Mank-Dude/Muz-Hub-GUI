@@ -1,4 +1,4 @@
---Made By Demon
+--Made By Assistant Simp
 local ScreenGui = Instance.new("ScreenGui")
 local MUZHUB = Instance.new("Frame")
 local MUZHUB_2 = Instance.new("TextLabel")
